@@ -7,14 +7,16 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "setup": "npx prisma migrate dev && npx prisma db seed"
+        "setup": "node scripts/setup.js"
     },
     "dependencies": {
         "@prisma/client": "^5.11.0",
+        "dotenv": "^16.4.5",
         "next": "14.1.4",
         "prisma": "^5.11.0",
         "react": "^18",
-        "react-dom": "^18"
+        "react-dom": "^18",
+        "dotenv": "^16"
     },
     "devDependencies": {
         "autoprefixer": "^10.0.1",

@@ -13,4 +13,5 @@ model Element {
   elementName  String @map("element_name")
   atomicNumber Int    @map("atomic_number") @unique
   symbol       String
+  atomicMass   Float  @map("atomic_mass") @default(0)
 }
