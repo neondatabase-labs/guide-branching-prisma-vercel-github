@@ -1,3 +1,5 @@
+<img width="250px" src="https://neon.tech/brand/neon-logo-dark-color.svg" />
+
 # Database Branching with Neon, Prisma, Vercel and GitHub Actions
 
 This example project demonstrates how to set up a database branching workflow using Neon, Vercel, Prisma, and GitHub Actions. It creates an isolated branch of the database for each pull request, runs the database migrations against this branch and deploys the application to a Vercel preview environment. 
